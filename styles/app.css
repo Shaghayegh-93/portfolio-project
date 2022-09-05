@@ -34,6 +34,19 @@ h2 {
 img {
   width: 100%;
 }
+/* .navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+} */
 .hero {
   background-color: var(--secondar-color);
   text-align: center;
@@ -43,7 +56,6 @@ img {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-
 }
 .hero h1 {
   font-size: 96px;
@@ -73,9 +85,25 @@ img {
   line-height: 27px;
   color: var(--primary-color);
 }
-.projectInfo{
+.projectInfo {
   margin-top: 100px;
-  padding:0 100px;
-  
+  padding: 0 100px;
 }
-
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .projectInfo {
+    margin-top: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .projectInfo h2 {
+    font-size: 50px;
+  }
+  .projectTitle {
+    text-align: center;
+  }
+}

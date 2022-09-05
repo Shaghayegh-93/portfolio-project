@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --default-font-family: "Poppins", sans-serif;
   --secondar-color: #f9f7fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: var(--default-font-family);
@@ -34,7 +35,7 @@ h2 {
 img {
   width: 100%;
 }
-/* .navigation-links {
+.navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
@@ -46,9 +47,10 @@ img {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-} */
+}
 .hero {
-  background-color: var(--secondar-color);
+  /* background-color: var(--secondar-color); */
+  background-color: #fff;
   text-align: center;
   padding: 160px 20px;
 }
@@ -101,7 +103,14 @@ img {
     text-align: center;
   }
   .projectInfo h2 {
-    font-size: 50px;
+    font-size: 35px;
+  }
+  .projectInfo a {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: var(--box-shadow);
+    font-size: 15px;
   }
   .projectTitle {
     text-align: center;

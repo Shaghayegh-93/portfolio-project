@@ -91,13 +91,13 @@ img {
   margin-top: 100px;
   padding: 0 100px;
 }
-.aboutSection {
+.aboutSection ,.contentContainer{
   padding: 160px 20px;
 }
 .aboutLeftSide {
   padding-right: 60px;
 }
-.aboutSection h1 {
+.aboutSection h1, .contentContainer h1 {
   font-size: 64px;
   font-family: "Playfair Display", serif;
   margin-bottom: 30px;
@@ -150,12 +150,15 @@ img {
   .projectTitle {
     text-align: center;
   }
-  .aboutSection {
+  .aboutSection ,.contentContainer {
     padding: 50px 20px;
     text-align: center;
   }
   .aboutLeftSide {
     padding-right: 0;
     margin-bottom: 40px;
+  }
+  .content h1{
+    font-size: 50px;
   }
 }

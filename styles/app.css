@@ -17,6 +17,9 @@ h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
+h4{
+  font-size: 48px;
+}
 a {
   text-decoration: none;
 }
@@ -150,6 +153,37 @@ nav li.active a {
 .content {
   text-align: center;
 }
+footer{
+  margin: 60px 0;
+}
+footer .contactBox{
+  background-color: var(--secondar-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contactBox p{
+  margin: 0;
+}
+footer div .emailLink {
+  font-size: 24px;
+  color: #000000;
+}
+footer div .emailLink:hover {
+  color: var(--primary-color);
+}
+.socialLink a{
+  border-radius: 50%;
+  background-color: var(--secondar-color);
+  color: var(--primary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+.socialLink a:hover{
+  color: #fff;
+  background-color: var(--primary-color);
+}
 
 @media (max-width: 576px) {
   .hero h1 {
@@ -188,12 +222,11 @@ nav li.active a {
     font-size: 50px;
   }
   nav img {
-  max-width: 120px;
-  /* max-height: 40px; */
-}
-.navLinks li {
-
-  margin-left: 10px;
-  font-size: 15px;
-}
+    max-width: 120px;
+    /* max-height: 40px; */
+  }
+  .navLinks li {
+    margin-left: 10px;
+    font-size: 15px;
+  }
 }

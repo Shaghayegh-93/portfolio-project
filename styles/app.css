@@ -17,7 +17,7 @@ h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
-h4{
+h4 {
   font-size: 48px;
 }
 a {
@@ -75,7 +75,7 @@ nav li.active a {
   /* background-color: var(--secondar-color); */
   background-color: #fff;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -116,7 +116,7 @@ nav li.active a {
 }
 .aboutSection,
 .contentContainer {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .aboutLeftSide {
   padding-right: 60px;
@@ -153,15 +153,15 @@ nav li.active a {
 .content {
   text-align: center;
 }
-footer{
+footer {
   margin: 60px 0;
 }
-footer .contactBox{
+footer .contactBox {
   background-color: var(--secondar-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
-footer .contactBox p{
+footer .contactBox p {
   margin: 0;
 }
 footer div .emailLink {
@@ -171,7 +171,7 @@ footer div .emailLink {
 footer div .emailLink:hover {
   color: var(--primary-color);
 }
-.socialLink a{
+.socialLink a {
   border-radius: 50%;
   background-color: var(--secondar-color);
   color: var(--primary-color);
@@ -180,7 +180,7 @@ footer div .emailLink:hover {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-.socialLink a:hover{
+.socialLink a:hover {
   color: #fff;
   background-color: var(--primary-color);
 }
